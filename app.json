@@ -1,8 +1,10 @@
 {
   "expo": {
-    "name": "react-native-imc-calculator1",
-    "slug": "react-native-imc-calculator1",
+    "name": "IMCFit",
+    "slug": "IMCFit",
     "version": "1.0.0",
+    "privacy": "public",
+    "description": "une application qui sert à caluler et interpréter l'IMC",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,6 +27,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a9becf14-3a1d-46e7-99d7-12fae21f885a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a9becf14-3a1d-46e7-99d7-12fae21f885a"
     }
   }
 }
